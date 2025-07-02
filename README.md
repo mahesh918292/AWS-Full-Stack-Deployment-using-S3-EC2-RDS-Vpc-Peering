@@ -22,6 +22,10 @@ Give the source vpc and receiver vpc,select region,account and click create
 # Fetching from rds like how many files uploaded in each time
 
 
+
+
+
+Summary to create an instances for the above sample full stack application
 -> Create an EC2 Instance:
 Go to the EC2 service in the AWS Console. Click "Launch Instance", choose an Amazon Linux or Ubuntu AMI, select a t2.micro instance (free tier), and create a new key pair (or use an existing one). Configure the security group to allow ports like 22 (SSH), 5000 (Node.js), and 80 (HTTP). Launch the instance and note its public IP address.
 <br> <br>
