@@ -24,9 +24,9 @@ Give the source vpc and receiver vpc,select region,account and click create
 
 -> Create an EC2 Instance:
 Go to the EC2 service in the AWS Console. Click "Launch Instance", choose an Amazon Linux or Ubuntu AMI, select a t2.micro instance (free tier), and create a new key pair (or use an existing one). Configure the security group to allow ports like 22 (SSH), 5000 (Node.js), and 80 (HTTP). Launch the instance and note its public IP address.
-<br>
+<br> <br>
 Create an S3 Bucket:
 Go to the S3 service and click "Create bucket". Enter a globally unique bucket name (e.g., my-app-uploads), choose the region closest to you (e.g., Asia Pacific - Mumbai), and leave default settings unless you need public access. Click "Create bucket".
-<br>
+<br> <br>
 Create an RDS Instance:
 Go to the RDS service and choose "Create database". Select the MySQL engine, then pick a t2.micro instance (free tier eligible). Set a DB name, master username (e.g., admin), and password. Under connectivity, make sure to allow public access if you want to connect from outside EC2, and set the security group to allow port 3306 (MySQL).
