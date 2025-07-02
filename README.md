@@ -1,5 +1,4 @@
-# AWS-Full-Stack-Deployment-using-S3-EC2-RDS
-This Repo consists of steps to for vpc peering and seeing results via full stack application deployed in aws <br>
+# This Repo consists of steps to for vpc peering and seeing results via full stack application deployed in aws <br>
 Here Rds is in private subnet in another vpc,ec2 is in another vpc with vpc peering it allows communication between these two resources <br>
 ![Screenshot (519)](https://github.com/user-attachments/assets/f4a22758-6f83-4133-b34a-98e54b014b11)
 # Go to vpc,click peering connections 
