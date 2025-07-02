@@ -9,11 +9,11 @@ Give the source vpc and receiver vpc,select region,account and click create
 ![Screenshot (521)](https://github.com/user-attachments/assets/3f6f4c3a-d7d7-48c4-b8bf-23c12f24aa6e)
 # Same did like above
 ![Screenshot (522)](https://github.com/user-attachments/assets/621ea2f9-be7a-43a5-9dce-1a105f405f0b)
-# Here rds is private
+# Here rds is private ( It is in private subnet and no ip address is attached )
 ![Screenshot (523)](https://github.com/user-attachments/assets/0c0a949c-a03f-4430-ba6a-d4469bca4da9)
 # Specify the port number for listening the requests sent from source
 ![Screenshot (524)](https://github.com/user-attachments/assets/1b082275-f606-4df9-aa2d-94dbb3b3d255)
-# Uploading 
+# Uploading ( Created ec2 
 ![Screenshot (525)](https://github.com/user-attachments/assets/0c97daa1-d83e-4a4f-b526-7831f75e54e2)
 # Uploaded
 ![Screenshot (526)](https://github.com/user-attachments/assets/afe62740-8f95-4034-8189-774542e028f0)
@@ -22,4 +22,4 @@ Give the source vpc and receiver vpc,select region,account and click create
 # Fetching from rds like how many files uploaded in each time
 
 
-->  In the s3 create build,push to s3 and call the backend via ec2 instance url <br>
+
